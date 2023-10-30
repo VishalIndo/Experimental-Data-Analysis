@@ -1,0 +1,39 @@
+Experimental Data Analysis
+
+Experiments were conducted to assess the benefits of a soft exosuit developed by the ARIES 
+Research Group on the economy of walking. In these experiments, healthy subjects were instructed 
+to walk on level ground, up flights of stairs, and down flights of stairs while their O2 and CO2
+consumption was being measured by a portable gas analyzer (K5, COSMED). Participants did these 
+tasks with and without wearing the exosuit. 
+
+Your task is to process the experimental data and recreate the results. Consider the exercises from 
+Tutorial 2: Signal Processing.
+The Dataset
+The assignment relates to the provided dataset available on Moodle in Abschnitt 13. Inside the zip 
+folder are four collections of data in .xlsx format. “NA.xlsx” is data collected without any exosuit 
+assistance. “WA.xlsx” is data collected with the assistance of the exosuit. “QSN.xlsx” is data collected 
+during the quiet standing period without the exosuit. “QSW.xlsx” is data collected during the quiet 
+standing period with the exosuit. The datasets were collected during the level ground walking 
+portion of the experiment. The included video “WalkingTrials.mp4” shows a subject performing the 
+level ground walking trial wearing the exosuit and gas analyzer.
+Preprocessing
+
+Calibrate the data using the quiet standing datasets. The subject can be assumed to be “at rest” 
+after two minutes of quiet standing.
+
+Step 1: Isolate the O2 and CO2 data for this period and convert to SI units.
+Step 2: Use Peronnet and Massicotte's equation to calculate the metabolic cost of quiet 
+standing.
+Step 3: Determine the calibration offset to use for the trial datasets.
+Figure 1: Test subject wearing the exosuit being evaluated. Figure 2: Test circuit of the experimental trials
+Step 4: Plot the O2, CO2, and metabolic costs for this period of both datasets. Print the value 
+of the calibration offset on the plot. Take care that your plot is easy to read and interpret.
+
+Data Analysis
+
+Step 1: Calculate and plot the net metabolic cost over time for the experimental trials (with 
+and without the exosuit).
+Step 2: Calculate the normalized cost of transport (COT) for each case.
+Step 3: Plot the COT over time for each case. Print on the plot the mean COT and mean 
+walking speed for each case. Calculate and print the metabolic cost savings as a percent 
+change when using the exosuit.
